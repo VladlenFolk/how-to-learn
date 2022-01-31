@@ -1,0 +1,10 @@
+.footer__column-link{
+  display: flex;
+  align-items: center;
+padding: 0 0 10px;
+align-itemS: center;
+}
+
+.footer__column-link:nth-of-type(3n){
+  padding-bottom: 0 ;
+}
