@@ -1,0 +1,7 @@
+.footer__column-link{
+  padding: 0 0 10px;
+}
+
+.footer__column-link:nth-of-type(3n){
+  padding-bottom: 0 ;
+}

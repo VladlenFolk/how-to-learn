@@ -1,0 +1,4 @@
+.light-link:hover {
+  opacity: .6;
+  transition: linear .4s;
+}
