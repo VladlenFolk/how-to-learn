@@ -3,8 +3,8 @@
   font-size: 120px;
   font-weight: bold;
   text-align: center;
-  min-width: 648px;
-  padding: 0 200px 70px;
+  max-width: 648px;
+  padding-bottom: 70px;
   position: relative;
   z-index: 2;
 }

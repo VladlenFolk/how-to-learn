@@ -7,7 +7,7 @@
     <meta name="author" content="Виктор Абанькин" />
     <meta name="keyword" content="Научиться учиться, Фейнман, Джордж Лукас" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="blocks/index.css" />
+    <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body>
     <div class="page">
@@ -123,26 +123,14 @@
           <div class="video__iframes">
             <iframe
               class="video__iframe"
-              id="ytplayer"
-              type="text/html"
-              width="515"
-              height="316"
               src="https://www.youtube.com/embed/5MgBikgcWnY"
-              frameborder="0"
               allowfullscreen
-              >Как выучить все, что угодно за 20 часов - Кауфман</iframe
-            >
+            ></iframe>
             <iframe
               class="video__iframe"
-              id="ytplayer"
-              type="text/html"
-              width="515"
-              height="316"
               src="https://www.youtube.com/embed/arj7oStGLkU"
-              frameborder="0"
               allowfullscreen
             >
-              Тим Урбан про прокрастинацию
             </iframe>
           </div>
         </section>
@@ -164,8 +152,6 @@
           </div>
         </section>
         <section class="feynman">
-          <!-- В брифе указано что в моей верстке внешний вид секции может отличаться от прототипа.
-             Поэтому __title и __subtitle не подгонял -->
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть</p>
           <a
@@ -173,7 +159,6 @@
             class="feynman__link light-link"
             >Подробнее →</a
           >
-          <img class="feynman__image" src="images/feinman.png" alt="Фейнман" />
         </section>
         <section class="digits">
           <h2 class="section-title">Цифры и факты</h2>
@@ -192,9 +177,7 @@
             </div>
             <div class="table__cell">
               <h3 class="table__heading">1000 терабайт</h3>
-              <p class="table__text table__text_margin_top">
-                Объём памяти человека
-              </p>
+              <p class="table__text">Объём памяти человека</p>
             </div>
             <div class="table__cell">
               <h3 class="table__heading">500 триллионов</h3>
@@ -205,14 +188,14 @@
             </div>
             <div class="table__cell">
               <h3 class="table__heading">420 миллионов</h3>
-              <p class="table__text table__text_margin_top">
+              <p class="table__text">
                 Число взрослых людей моложе 25 лет, не имеющих образования для
                 трудоустройства
               </p>
             </div>
             <div class="table__cell">
               <h3 class="table__heading">17-20 лет</h3>
-              <p class="table__text table__text_margin_top">Пик обучаемости</p>
+              <p class="table__text">Пик обучаемости</p>
             </div>
             <div class="table__cell">
               <h3 class="table__heading">1885 год</h3>
@@ -321,12 +304,8 @@
                 Уделяйте внимание количеству и скорости.
               </p>
             </div>
-            <img
-              class="kaufman__triangle rotation"
-              src="images/triangle.svg"
-              alt="треугольник"
-            />
           </div>
+          <div class="kaufman__triangle rotation"></div>
         </section>
         <section class="resources">
           <h2 class="section-title">Полезные ресурсы</h2>
@@ -389,47 +368,50 @@
           </div>
           <div class="footer__column footer__column_content_social">
             <h3 class="footer__column-heading">Соцсети</h3>
-            <ul class="footer__column-links">
-              <!-- Также нашел ссылки в интернете на социальные сети Яндекс Практикума -->
-              <li class="footer__column-link">
-                <a
-                  class="footer__link light-link"
-                  href="https://www.facebook.com/yandex.practicum/"
-                >
-                  <img
-                    class="footer__social-icon"
-                    src="images/facebook_white.svg"
-                    alt="Фейсбук"
-                  />
-                  Facebook</a
-                >
-              </li>
-              <li class="footer__column-link">
-                <a
-                  class="footer__link light-link"
-                  href="https://vk.com/yandex.praktikum"
-                >
-                  <img
-                    class="footer__social-icon"
-                    src="images/vk_white.svg"
-                    alt="ВКонтакте"
-                  />
-                 ВКонтакте
-                </a>
-              </li>
-              <li class="footer__column-link">
-                <a
-                  class="footer__link light-link"
-                  href="https://www.instagram.com/yndx.practicum/"
-                >
-                  <img
-                    class="footer__social-icon"
-                    src="images/instagram_white.svg"
-                    alt="Инстаграм"
-                  /> Instagram</a
-                >
-              </li>
-            </ul>
+            <nav>
+              <ul class="footer__column-links">
+                <!-- Также нашел ссылки в интернете на социальные сети Яндекс Практикума -->
+                <li class="footer__column-link">
+                  <a
+                    class="footer__link light-link"
+                    href="https://www.facebook.com/yandex.practicum/"
+                  >
+                    <img
+                      class="footer__social-icon"
+                      src="images/facebook_white.svg"
+                      alt="Фейсбук"
+                    />
+                    Facebook</a
+                  >
+                </li>
+                <li class="footer__column-link">
+                  <a
+                    class="footer__link light-link"
+                    href="https://vk.com/yandex.praktikum"
+                  >
+                    <img
+                      class="footer__social-icon"
+                      src="images/vk_white.svg"
+                      alt="ВКонтакте"
+                    />
+                    ВКонтакте
+                  </a>
+                </li>
+                <li class="footer__column-link">
+                  <a
+                    class="footer__link light-link"
+                    href="https://www.instagram.com/yndx.practicum/"
+                  >
+                    <img
+                      class="footer__social-icon"
+                      src="images/instagram_white.svg"
+                      alt="Инстаграм"
+                    />
+                    Instagram</a
+                  >
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </footer>
